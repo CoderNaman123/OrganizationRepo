@@ -1,0 +1,269 @@
+body{
+  margin: 0px;
+  font-family: sans-serif;
+}
+#home{
+  padding-left: 30px;
+}
+.flex-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 500px;
+  background: linear-gradient(90deg, rgba(4,231,245,1) 42%, rgba(0,31,255,1) 87%);
+}
+.flex-container img
+{
+  border-radius: 20px;
+  width: 320px;
+  height: 320px;
+  border: 3px solid black;
+  margin-right: 30px;
+  margin-left: 28px;
+  margin-top: 40px;
+}
+.flex-container h1
+{
+  font-size: 40px;
+  color: darkblue;
+  margin-bottom:50px;
+  font-family: cursive;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.flex-container span
+{
+  font-size: 50px;
+  color: orangered;
+  font-family: cursive;
+}
+.flex-container h2{
+  font-size: 30px;
+  color: black;
+  font-family: cursive;
+  margin-left: 20px;
+}
+.menu {
+  list-style-type: none;
+  position: fixed;
+  top: -15px;
+  z-index: 10;
+  width: 96.7%;
+  background-color: red;
+  border: 2px solid black;
+}
+.menu li{
+  float: right;
+  padding-right: 45px;
+}
+.menu a{
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 21px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Lora', serif;
+  width: 100px;
+  text-align-last: center;
+}
+.menu a:hover{
+background-color: white;
+color: red;
+font-size: 20px;
+width: 100px;
+border: 2px solid black;
+border-radius: 10px;
+font-family: cursive;
+}
+
+.menu a:active{
+  background-color: yellow;
+  color: black;
+}
+
+#About{
+  text-align: center;
+  background-color: yellow;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+#About h1{
+  font-size: 50px;
+  font-family: 'Merienda', cursive;
+}
+hr{
+  width: 450px;
+  height: 7px;
+  background-color: red;
+margin-top: -35px;
+margin-bottom: 60px;
+border: 2px solid black;
+border-radius: 10px;
+}
+#About p{
+  font-size: 25px;
+  width: 1000px;
+ margin: auto;
+  font-family: 'Courgette', cursive;
+  line-height: 1.8;
+  color: black;
+}
+.center{
+  text-align: center;
+}
+iframe{
+  margin: 30px;
+}
+#Videos{
+background: linear-gradient(90deg, rgba(4,231,245,1) 0%, rgba(0,255,25,1) 0%);
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+#Videos  h1{
+  font-size: 50px;
+  font-family: 'Merienda', cursive;
+}
+
+
+
+#work{
+  height: 1000px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  background: linear-gradient(90deg, rgba(239,255,0,1) 31%, rgba(255,17,0,1) 100%);
+}
+#work h1{
+  font-size: 50px;
+  font-family: 'Merienda', cursive;
+}
+
+.row{
+  padding: 20px;
+}
+.card{
+  box-shadow:  5px 4px 8px 10px purple;
+  transition: 0.5s;
+  width: 20%;
+  display: inline-block;
+  margin: 20px;
+  background-color: yellow;
+  border: 4px solid black;
+}
+.card:hover{
+  box-shadow: 8px 8px 16px 15px blue;
+  width: 22%;
+  height: 400px;
+  border: 5px solid black;
+}
+.container{
+  padding: 2px 16px;
+  font-family: cursive;
+  display: inline-block;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.container:hover {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-family: cursive;
+  padding: 2px 16px;
+    padding-bottom: 20px;
+}
+.font{
+  font-size: 25px;
+font-family: 'Satisfy', cursive;
+margin-bottom: 20px;
+}
+.card img{
+  width: 100%;
+  height: 250px;
+}
+a{
+  text-decoration: none;
+  color: darkred;
+  font-family: cursive;
+  font-weight: bolder;
+  font-size: 20px;
+}
+a:hover{
+  color: darkblue;
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+
+
+#skills{
+  height: 500px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: radial-gradient(circle, rgba(0,247,27,1) 69%, rgba(0,232,248,1) 69%, rgba(0,255,239,1) 100%);
+  font-family: 'Dancing Script', cursive;
+  font-weight: bolder;
+}
+#skills h1{
+  font-size: 50px;
+  font-family: 'Merienda', cursive;
+margin-top: -15px;
+}
+
+.container-bar{
+  background-color: white;
+    border-radius: 10px;
+  width: 60%;
+  margin: 10px auto;
+  border: 2px solid black;
+}
+.skills{
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  color: white;
+}
+.html{
+  width: 90%;
+  border-radius: 10px;
+  background-color: red;
+  font-family: 'Dancing Script', cursive;
+  border: 3px solid white;
+}
+.css{
+  width: 80%;
+    border-radius: 10px;
+  background-color:black;
+  font-family: 'Dancing Script', cursive;
+border: 3px solid white;
+}
+.js{
+  width: 65%;
+    border-radius: 10px;
+  background-color: purple;
+  font-family: 'Dancing Script', cursive;
+  border: 3px solid white;
+}
+h3{
+  font-size: 25px;
+  font-family: 'Merienda', cursive;
+}
+
+#contact h3{
+display: inline-block;
+margin-left: 20px;
+color: purple;
+}
+
+footer{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 2px solid black;
+  background: coral;
+color: lightgreen;
+}
+
+.fa{
+  transform: scale(2,2);
+}
